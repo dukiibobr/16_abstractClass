@@ -431,9 +431,9 @@ public:
 	 }
 
 	 ~Life(){
-		 delete fox;
-		 delete bunny;
-		 delete grass;
+		 delete[] fox;
+		 delete[] bunny;
+		 delete[] grass;
 	 }
  };
 
